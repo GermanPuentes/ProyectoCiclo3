@@ -1,0 +1,30 @@
+#titulo {
+    background-color: burlywood;
+    color: rgb(83, 36, 212);
+}
+
+#resultado table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#resultado th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+#resultado th {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+/* diferencia cada fila de la tabla con un color pares un color, impares otro*/
+#resultado tr:nth-child(even) {
+    background-color: #eee;
+}
+/* resalta la fila por donde pasa el mouse*/
+#resultado tr:hover{
+    background-color: #B2BEF2;
+    cursor: pointer;
+}
